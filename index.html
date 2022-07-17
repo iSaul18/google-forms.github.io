@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Google Forms</title>
+</head>
+
+<body>
+
+    <div class="contenedor-general contenedor">
+        <div class="bac-white">
+            <img src="img/ScreenShot_20220717092421.png" alt="">
+        </div>
+
+        <div class="bac-white inscripciones-header">
+            <h1>Inscripciones Bootcamp 5G</h1>
+            <div class="header-correo">
+                <p class="inscripciones-header-p">porrasemiliosaul@gmail.com</p>
+                <a href="#!">Cambiar cuenta</a>
+            </div>
+        </div>
+
+        <form>
+            <div class="bac-white datos-personales ">
+                <p>DATOS PERSONALES</p>
+            </div>
+            
+            <div class="bac-white">
+                <p>Apellido Paterno (MAYÚSCULAS):</p>
+                <input class="input-border" type="text" placeholder="Tu respuesta" required>
+            </div>
+            
+            <div class="bac-white">
+                <p>Apellido Materno (MAYÚSCULAS):</p>
+                <input class="input-border" type="text" placeholder="Tu respuesta" required>
+            </div>
+            
+            <div class="bac-white">
+                <p>Nombres (MAYÚSCULAS):</p>
+                <input class="input-border" type="text" placeholder="Tu respuesta" required>
+            </div>
+            
+            <div class="bac-white">
+                <p>País de Residencia:</p>
+                <input class="input-border" type="text" placeholder="Tu respuesta" required>
+            </div>
+            
+            <div class="bac-white">
+                <p>Departamento / Provincia o Estado:</p>
+                <input class="input-border" type="text" placeholder="Tu respuesta" required>
+            </div>
+            
+            <div class="bac-white">
+                <p>Correo Electronico:</p>
+                <input class="input-border" type="email" placeholder="Tu respuesta" required>
+            </div>
+            
+            <div class="bac-white">
+                <p>Celular / Teléfono:</p>
+                <input class="input-border" type="tel" placeholder="Tu respuesta" required>
+            </div>
+            
+            <div class="bac-white">
+                <p>Género:</p>
+            
+                <div class="inputs-container">
+                    <input class="input-border selec-purple" id="genero-masc" type="radio" name="generos" required>
+                    <label for="genero-masc">Masculino</label>
+                </div>
+            
+                <div class="inputs-container">
+                    <input class="input-border selec-purple" id="genero-fem" type="radio" name="generos" required>
+                    <label for="genero-fem">Femenino</label>
+                </div>
+            
+                <div class="inputs-container">
+                    <input class="input-border selec-purple" id="genero-otr" type="radio" name="generos" required>
+                    <label for="genero-otr"> Otros:</label>
+                    <input class="input-border" id="genero-otr" type="text" placeholder="Tu respuesta">
+                </div>
+            </div>
+            
+            <div class="bac-white">
+                <p>Edad:</p>
+                <input class="input-border" type="number" required>
+            </div>
+            
+            <div class="bac-white">
+                <p>Me incribo para:</p>
+            
+                <div class="inputs-container">
+                    <input class="input-border selec-purple" id="inscribo-op1" type="radio" name="inscribo" required>
+                    <label for="inscribo-op1">Pre - Bootcamp (500) Empieza 13 de JULIO</label>
+                </div>
+            
+                <div class="inputs-container">
+                    <input class="input-border selec-purple" id="inscribo-op2" type="radio" name="inscribo" required>
+                    <label for="inscribo-op2">Bootcamp (1200 ) Empieza Setiembre</label>
+                </div>
+            </div>
+
+            <input class="input-enviar" type="submit" value="Enviar">
+        </form>
+
+        <p class="politica-privacidad">Google no creó ni aprobó este contenido. Denunciar abuso - <a href="#!">Condiciones del Servicio</a> - <a href="#!">Política de Privacidad</a></p>
+        <p class="google-footer">Google Formularios</p>
+    </div>
+    <footer>Saul Porras &copy;</footer>
+</body>
+
+</html>
